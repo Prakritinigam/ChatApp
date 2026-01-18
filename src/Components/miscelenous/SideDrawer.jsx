@@ -15,14 +15,13 @@ import {
   Tooltip,
   useDisclosure,
   useToast,
-} from "@chakra-ui/react";
-import {
+} from "@chakra-ui/react";import {
   Drawer,
   DrawerBody,
   DrawerContent,
   DrawerHeader,
   DrawerOverlay,
-} from "@chakra-ui/modal";
+} from "@chakra-ui/react";
 import React, { useState } from "react";
 import { chatState } from "../../Context/ChatProvider";
 import ProfileModal from "./ProfileModal";
