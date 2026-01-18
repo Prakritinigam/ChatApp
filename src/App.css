@@ -1,0 +1,20 @@
+/* Ensure full height and width */
+html, body {
+
+  overflow: hidden; /* Prevents scrolling */
+}
+
+/* Ensure #root covers the full page */
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url("assets/backgorund.avif");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+::-webkit-scrollbar{
+  width: 0px;
+}
